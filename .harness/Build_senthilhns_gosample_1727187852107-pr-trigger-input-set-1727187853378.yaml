@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_senthilhns_gosample_1727187852107-pr-trigger-input-set
+  identifier: Build_senthilhns_gosample_1727187852107prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_senthilhns_gosample_1727187852107
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
