@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_senthilhns_gosample_1727188194726-push-trigger-input-set
+  identifier: Build_senthilhns_gosample_1727188194726pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_senthilhns_gosample_1727188194726
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
